@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
             distance = Math.Sqrt(Math.Pow((double)x2 - (double)x1, 2) + Math.Pow((double)y2 - (double)y1, 2));
 
-            Console.Write($"Расстояние между точками: {distance}");
+            Console.WriteLine($"Расстояние между точками: {distance}");
         }
     }
 }
